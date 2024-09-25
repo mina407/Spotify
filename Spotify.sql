@@ -174,7 +174,19 @@ select * ,
 from cte
 order by difference desc; 
 
+-- Optimization
+EXPLAIN ANALYSE
+select artist ,
+		track ,views 
+from spotify
+where artist = 'Gorillaz'
+	and
+	most_played_on = 'Youtube'
+order by stream desc
+limit 25 ;
 
+
+CREATE INDEX idx_artist ON spotify(artist);
   
 
 
