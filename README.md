@@ -238,10 +238,14 @@ To improve query performance, we carried out the following optimization process:
     - A graph illustrating the comparison between the initial query execution time and the optimized query execution time after index creation.
     - **Graph view** shows the significant drop in both execution and planning times:
       ![Performance Graph](https://github.com/mina407/Spotify/blob/main/1.png)
-      ![Performance Graph]()
-      ![Performance Graph]()
+      ![Performance Graph](https://github.com/mina407/Spotify/blob/main/4.png)
+      ![Performance Graph](https://github.com/mina407/Spotify/blob/main/2.png)
+      ![Performance Graph](https://github.com/mina407/Spotify/blob/main/3.png)
 
 This optimization shows how indexing can drastically reduce query time, improving the overall performance of our database operations in the Spotify project.
 ---
-
+## Technology Stack
+- **Database**: PostgreSQL
+- **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
+- **Tools**: pgAdmin 4 (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation)
 
