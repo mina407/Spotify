@@ -209,3 +209,5 @@ order by difference desc;
 ```
 
 ---
+## Query Optimization Technique
+--
