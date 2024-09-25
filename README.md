@@ -237,7 +237,7 @@ To improve query performance, we carried out the following optimization process:
 - **Graphical Performance Comparison**
     - A graph illustrating the comparison between the initial query execution time and the optimized query execution time after index creation.
     - **Graph view** shows the significant drop in both execution and planning times:
-      ![Performance Graph]()
+      ![Performance Graph](https://github.com/mina407/Spotify/blob/main/1.png)
       ![Performance Graph]()
       ![Performance Graph]()
 
